@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const appRoutes = require("./routes/workouts");
 
 const app = express();
-
+// mongoose.set('strictQuery', true);
 app.use(cors());
 app.use(express.json());
 
